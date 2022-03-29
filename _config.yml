@@ -32,8 +32,12 @@ theme: jekyll-theme-yat
 plugins:
   - jekyll-feed
 
-banner:
-  image: /assets/images/banners/home.jpeg
+defaults:
+  home:
+    heading: "An example for my article"
+    subheading: "This is an example for my article on Medium"
+    banner:
+      image: /assets/images/banners/home.jpeg
 
 # Exclude from processing.
 # The following items will not be processed, by default.
